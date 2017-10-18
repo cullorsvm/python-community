@@ -1,0 +1,21 @@
+##list of boolean values and last field is integer number
+##           Math   Calc  Hist   Eng   PubSp  Art  Legal  Cyber  Acct  Credit
+b_record  = [False, True, True, True, False, False, False, True, False, 60]
+c_record  = [False, False, True, False, True, False, True, True, False, 75]
+a_record  = [True, False, True, True, True, False, False, False, False, 54]
+
+for x in a_record:
+    print(x)
+    
+Math = a_record[0]
+Calc = a_record[1]
+Hist = a_record[2]
+Eng = a_record[3]
+PubSp = a_record[4]
+Art = a_record[5]
+Legal = a_record[6]
+Cyber = a_record[7]
+Acct = a_record[8]
+Credit = a_record[9]
+
+print("Script complete.")
